@@ -544,4 +544,507 @@
           </details>
 
           <details>
-            <summary>Student discri
+            <summary>Student discrimination &amp; grievance procedures <span class="hint">(expand)</span></summary>
+            <p>
+              KCTCS has zero tolerance for illegal discrimination. Students may pursue informal and/or formal grievance procedures.
+              Contact the Director of Student Life and Engagement within 30 calendar days of the alleged incident.
+              Informal resolution efforts occur within specified timelines; a formal complaint may be filed if not resolved.
+            </p>
+            <p>
+              <strong>Contact:</strong> Dr. David Travis • <a href="tel:+12709014348">270-901-4348</a> •
+              <a href="mailto:david.travis@kctcs.edu">david.travis@kctcs.edu</a><br />
+              1845 Loop Drive, Bowling Green, KY 42101
+            </p>
+          </details>
+
+          <details>
+            <summary>Plagiarism, cheating, and AI use <span class="hint">(expand)</span></summary>
+            <p>
+              KCTCS has a policy on plagiarism and cheating (Code of Student Conduct, Article II, Standard 1).
+            </p>
+            <div class="callout" role="note" aria-label="AI policy note">
+              <strong>AI policy:</strong> Use of AI in this course is strictly prohibited except non-generative AI embedded in
+              KCTCS-approved technology (e.g., Microsoft Word, Grammarly, Blackboard). Using AI for brainstorming, composing responses,
+              or significant contribution to assignments is forbidden.
+            </div>
+            <p>
+              Assignments showing characteristics of unethical AI use will receive a zero until the student meets with the instructor.
+              First offense: zero (no redo/resubmit). Second offense: course grade of “E.”
+            </p>
+          </details>
+
+          <details>
+            <summary>Privacy and security (FERPA) <span class="hint">(expand)</span></summary>
+            <p>
+              The Registrar’s Office follows FERPA guidelines to protect student records. KCTCS colleges maintain confidentiality of
+              educational records and accord applicable rights under FERPA, regardless of course delivery mode.
+            </p>
+          </details>
+
+          <details>
+            <summary>Blackboard time zone <span class="hint">(expand)</span></summary>
+            <p>
+              Blackboard Ultra uses the student’s current geographic time zone. Due dates appear in that time zone (Central, Eastern, etc.).
+            </p>
+          </details>
+        </section>
+
+        <section id="grading" class="card" aria-labelledby="grading-title">
+          <h2 id="grading-title">Grades &amp; Contract-Based Grading</h2>
+
+          <h3>Grade Scale</h3>
+          <ul>
+            <li>90–100%: A</li>
+            <li>80–89%: B</li>
+            <li>70–79%: C</li>
+            <li>60–69%: D</li>
+            <li>0–59%: E</li>
+          </ul>
+
+          <details>
+            <summary>Important grading notes <span class="hint">(expand)</span></summary>
+            <ul>
+              <li>Passing grade is A, B, or C (for some programs, D).</li>
+              <li>You cannot pass without completing and submitting <strong>all composition assignments</strong> (including drafts).</li>
+              <li>Grading turnaround: homework/quizzes within 2 days; composition assignments within 1 week.</li>
+              <li>Composition submissions: Word (.doc/.docx) or PDF via Blackboard. Multimodal submissions: MP4. Incorrect formats are not graded.</li>
+            </ul>
+          </details>
+
+          <h3>Contract Categories</h3>
+          <p class="muted">
+            Specific contract details are available in Blackboard. Contract categories include Workshops &amp; Responses (including lecture videos),
+            Quizzes &amp; Conferences, and Composition Assignments (Research Proposal, Annotated Bibliography, Research Paper).
+          </p>
+
+          <div class="table-wrap" role="region" aria-label="Contract-based grading expectations table" tabindex="0">
+            <table>
+              <caption>Contract-Based Grading Expectations</caption>
+              <thead>
+                <tr>
+                  <th scope="col">Contract Grade</th>
+                  <th scope="col">Workshops &amp; Responses</th>
+                  <th scope="col">Quizzes &amp; Conferences</th>
+                  <th scope="col">Composition Assignments</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">A</th>
+                  <td>
+                    <ul>
+                      <li>Peer review fully completed (full draft + every worksheet question for each peer).</li>
+                      <li>All workshop activities completed.</li>
+                      <li>At least 3 discussion boards completed.</li>
+                    </ul>
+                  </td>
+                  <td>
+                    <ul>
+                      <li>Quizzes overall: 85% or better.</li>
+                      <li>At least 2 conferences (1 with instructor; other may be writing coach/tutor).</li>
+                    </ul>
+                  </td>
+                  <td>
+                    <ul>
+                      <li>Each assignment revised until at least “meets;” at least one must reach “exceeds.”</li>
+                      <li>Research Proposal</li>
+                      <li>Annotated Bibliography</li>
+                      <li>Research Assignment</li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">B</th>
+                  <td>
+                    <ul>
+                      <li>Peer review completed (draft may be incomplete; most worksheet questions answered).</li>
+                      <li>At least 75% of workshop activities completed.</li>
+                      <li>At least 2 discussion boards completed using the RISE model.</li>
+                    </ul>
+                  </td>
+                  <td>
+                    <ul>
+                      <li>Quizzes overall: 70% or better.</li>
+                      <li>At least 1 conference with instructor.</li>
+                    </ul>
+                  </td>
+                  <td>
+                    <ul>
+                      <li>Each assignment revised until all score “meets.”</li>
+                      <li>Research Proposal</li>
+                      <li>Annotated Bibliography</li>
+                      <li>Research Assignment</li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">C</th>
+                  <td>
+                    <ul>
+                      <li>Peer review partially completed (draft may be incomplete; some worksheet questions answered).</li>
+                      <li>At least 50% of workshop activities completed.</li>
+                      <li>At least 1 discussion board completed using the RISE model.</li>
+                    </ul>
+                  </td>
+                  <td>
+                    <ul>
+                      <li>Quizzes overall average: 60% or better.</li>
+                      <li>No conferences required (encouraged).</li>
+                    </ul>
+                  </td>
+                  <td>
+                    <ul>
+                      <li>At least 2 assignments revised to “meets.”</li>
+                      <li>Research Proposal</li>
+                      <li>Annotated Bibliography</li>
+                      <li>Research Assignment</li>
+                    </ul>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="callout" role="note" aria-label="D and E grade note">
+            <strong>Note on D/E:</strong> A “D” is not a transferable grade and is not available as a contract option.
+            Anything below the “C” contract defaults to “D.” Workplace ethics violations (including not completing homework/participation)
+            can result in an “E.”
+          </div>
+        </section>
+
+        <section id="schedule" class="card" aria-labelledby="schedule-title">
+          <h2 id="schedule-title">Course Outline &amp; Weekly Schedule</h2>
+
+          <h3>Units and Competencies</h3>
+          <details>
+            <summary>Unit 1: Introduction to Argument (Weeks 1–2) <span class="hint">(expand)</span></summary>
+            <ul>
+              <li>Review the basic elements of an argument</li>
+              <li>Learn Aristotelian, Toulmin, Rogerian, and basic argument forms</li>
+              <li>Identify elements from each argument form</li>
+              <li>Understand course expectations and guidelines</li>
+              <li>Identify arguable claims</li>
+              <li>Read and discuss college-level texts</li>
+            </ul>
+          </details>
+
+          <details>
+            <summary>Unit 2: Research and Citations (Weeks 2–5) <span class="hint">(expand)</span></summary>
+            <ul>
+              <li>Read and respond to college-level texts</li>
+              <li>Differentiate primary vs. secondary sources</li>
+              <li>Differentiate scholarly vs. popular sources</li>
+              <li>Develop a research proposal</li>
+              <li>Find scholarly sources using library databases</li>
+              <li>Create MLA or APA citations in an annotated bibliography</li>
+              <li>Understand academic research parameters</li>
+              <li>Read and discuss college-level texts</li>
+            </ul>
+          </details>
+
+          <details>
+            <summary>Unit 3: Research Paper (Weeks 5–8) <span class="hint">(expand)</span></summary>
+            <ul>
+              <li>Complete in-depth research over a topic of choice</li>
+              <li>Draft a research paper and complete peer reviews</li>
+              <li>Apply revision and editing techniques</li>
+              <li>Write an argumentative research essay with all elements</li>
+              <li>Create MLA Works Cited + in-text citations (or APA References)</li>
+            </ul>
+          </details>
+
+          <div class="table-wrap" role="region" aria-label="Weekly schedule table" tabindex="0">
+            <table>
+              <caption>Weekly Schedule (All due Sunday 11:59 PM CST unless noted)</caption>
+              <thead>
+                <tr>
+                  <th scope="col">Week &amp; Dates</th>
+                  <th scope="col">Content</th>
+                  <th scope="col">Activities</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Week 1 — Mar 16–22</th>
+                  <td>
+                    <ul>
+                      <li>Review ENG 101 materials</li>
+                      <li>Syllabus &amp; contract grading overview</li>
+                      <li>Intro to argument &amp; rhetorical situation</li>
+                      <li>Types of claims</li>
+                      <li>Read Ch. 1 &amp; 2</li>
+                      <li>Read “Brief History of AI” and “What Is AI and How Does It Work?”</li>
+                    </ul>
+                  </td>
+                  <td>
+                    <ul>
+                      <li>Syllabus Quiz</li>
+                      <li>Discussion Board #1</li>
+                      <li>Contract Grades Forum</li>
+                      <li>Claims Activity Homework</li>
+                    </ul>
+                  </td>
+                </tr>
+
+                <tr>
+                  <th scope="row">Week 2 — Mar 23–29</th>
+                  <td>
+                    <ul>
+                      <li>Topic exploration lectures</li>
+                      <li>Read “Generative AI’s Environmental Impact” and “As Use of AI Soars, so Does the Energy &amp; Water it Requires”</li>
+                      <li>Proposal assigned</li>
+                      <li>Conferences and Group Q&amp;A opportunities</li>
+                    </ul>
+                  </td>
+                  <td>
+                    <ul>
+                      <li>Topic Guide Workshop</li>
+                      <li>Discussion Board #2</li>
+                      <li>Quiz #2</li>
+                    </ul>
+                  </td>
+                </tr>
+
+                <tr>
+                  <th scope="row">Week 3 — Mar 30–Apr 5</th>
+                  <td>
+                    <ul>
+                      <li>Evaluating support lecture</li>
+                      <li>Fallacies lecture</li>
+                      <li>Research fundamentals</li>
+                      <li>Read Ch. 5</li>
+                      <li>Conferences and Group Q&amp;A opportunities</li>
+                    </ul>
+                  </td>
+                  <td>
+                    <ul>
+                      <li>Fallacies Activity Homework</li>
+                      <li>Research Activity Homework</li>
+                      <li>Quiz #3</li>
+                      <li><strong>Proposal Due</strong></li>
+                    </ul>
+                  </td>
+                </tr>
+
+                <tr>
+                  <th scope="row">Week 4 — Apr 6–12</th>
+                  <td>
+                    <ul>
+                      <li>Advanced research strategies</li>
+                      <li>Google Advanced Search</li>
+                      <li>Citations &amp; documentation</li>
+                      <li>In-text citations &amp; quoting</li>
+                      <li>Read Ch. 6</li>
+                      <li>Read “Does AI Have a Bias Problem” and “The Dangers of AI &amp; Extremism”</li>
+                    </ul>
+                  </td>
+                  <td>
+                    <ul>
+                      <li>Annotated Bibliography Assigned</li>
+                      <li>Documentation Activity Homework</li>
+                      <li>Quiz #4</li>
+                      <li>Discussion Board #3</li>
+                    </ul>
+                  </td>
+                </tr>
+
+                <tr>
+                  <th scope="row">Week 5 — Apr 13–19</th>
+                  <td>
+                    <ul>
+                      <li>Read “The Risks of Botshit” and “AI’s Great Illusion: Are We Expecting too Much From Machines”</li>
+                      <li>Conferences and Group Q&amp;A opportunities</li>
+                    </ul>
+                  </td>
+                  <td>
+                    <ul>
+                      <li><strong>Annotated Bibliography Due</strong></li>
+                      <li>Quiz #5</li>
+                      <li>Discussion Board #4</li>
+                    </ul>
+                  </td>
+                </tr>
+
+                <tr>
+                  <th scope="row">Week 6 — Apr 20–26</th>
+                  <td>
+                    <ul>
+                      <li>Research Paper Assigned</li>
+                      <li>Read “AI For Good: How AI is Helping Humanity” and “How AI is Transforming the Lives of Neurodivergent People”</li>
+                      <li>Conferences and Group Q&amp;A opportunities</li>
+                    </ul>
+                  </td>
+                  <td>
+                    <ul>
+                      <li>Discussion Board #5</li>
+                      <li>Quiz #6</li>
+                    </ul>
+                  </td>
+                </tr>
+
+                <tr>
+                  <th scope="row">Week 7 — Apr 27–May 3</th>
+                  <td>
+                    <ul>
+                      <li>Drafting workshops</li>
+                      <li>Peer review guidance</li>
+                      <li>Conferences and Group Q&amp;A opportunities</li>
+                    </ul>
+                  </td>
+                  <td>
+                    <ul>
+                      <li>Draft 1 due to peers by Wednesday</li>
+                      <li>Draft 2 due to Professor Smith by Sunday</li>
+                    </ul>
+                  </td>
+                </tr>
+
+                <tr>
+                  <th scope="row">Week 8 — May 4–10</th>
+                  <td>
+                    <ul>
+                      <li>Finalize revisions</li>
+                      <li>Prepare final submission</li>
+                    </ul>
+                  </td>
+                  <td>
+                    <ul>
+                      <li><strong>Final Draft Due</strong></li>
+                    </ul>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <p class="muted"><strong>Note:</strong> This syllabus/schedule is subject to change with notice.</p>
+        </section>
+
+        <section id="guidelines" class="card" aria-labelledby="guidelines-title">
+          <h2 id="guidelines-title">Instructor Guidelines</h2>
+
+          <details>
+            <summary>Communication expectations <span class="hint">(expand)</span></summary>
+            <ul>
+              <li>Use KCTCS email to communicate with the instructor.</li>
+              <li>Check KCTCS email daily.</li>
+            </ul>
+          </details>
+
+          <details>
+            <summary>Participation expectations <span class="hint">(expand)</span></summary>
+            <p>
+              Participation includes engaging in discussion, answering questions, asking timely questions, and completing homework.
+              Students must log into Blackboard weekly and complete all assignments.
+            </p>
+            <p class="muted">
+              After two weeks of inactivity (not logging into Blackboard and completing assignments), students will not be able to pass the course,
+              with exceptions per SKYCTC policy and the Healthy at SKYCTC initiative.
+            </p>
+          </details>
+
+          <details>
+            <summary>Extra credit, late work, and make-up work <span class="hint">(expand)</span></summary>
+            <ul>
+              <li>Extra credit is not offered.</li>
+              <li>Late/make-up work is not accepted except in circumstances outlined by SKYCTC policies and the Healthy at SKYCTC initiative.</li>
+            </ul>
+          </details>
+
+          <details>
+            <summary>Instructor withdrawal guidelines <span class="hint">(expand)</span></summary>
+            <p>
+              Students may withdraw themselves until the midpoint. After midpoint, withdrawal requires instructor approval.
+              To request approval, students should contact the instructor to discuss progress and options; an email or conversation is required
+              before approval (exceptions include certain Starfish flags).
+            </p>
+          </details>
+
+          <details>
+            <summary>Professional conduct and disruptive behavior <span class="hint">(expand)</span></summary>
+            <p>
+              Actions that prevent teaching or learning are disruptive and not acceptable in academic or workplace settings.
+              Derogatory, disrespectful, rude, argumentative, or hateful comments/actions toward the instructor or other students will not be tolerated,
+              including discussion board posts. Code of Conduct infractions are handled with progressive discipline as described in the Code.
+            </p>
+          </details>
+
+          <details>
+            <summary>Original work policy <span class="hint">(expand)</span></summary>
+            <p>
+              All work should be original and not previously submitted or published in another course or location.
+              If you have questions, contact the instructor before completing the task/assignment.
+            </p>
+          </details>
+        </section>
+
+        <section id="support" class="card" aria-labelledby="support-title">
+          <h2 id="support-title">Support &amp; Accessibility</h2>
+
+          <h3>Accessibility Services (ADA)</h3>
+          <p>
+            Students needing accommodations must register with the Accessibility Services Coordinator:
+            <a href="tel:+12709011088">270-901-1088</a> or email the Accessibility Services office.
+            Do not request accommodations directly from faculty.
+          </p>
+
+          <h3>Technology Support</h3>
+          <ul>
+            <li>SKYCTC Library Help Desk: <a href="tel:+12709011171">270-901-1171</a></li>
+            <li>Blackboard Help Desk: <a href="tel:+18552467528">855-246-7528</a> (option 4)</li>
+            <li>Email: <a href="mailto:sky-digitallearning@kctcs.edu">sky-digitallearning@kctcs.edu</a></li>
+          </ul>
+        </section>
+      </div>
+
+      <!-- RIGHT COLUMN -->
+      <aside class="card" aria-label="Quick reference sidebar">
+        <h2>Quick Reference</h2>
+
+        <div class="callout" role="note" aria-label="Submission formats">
+          <strong>Submission formats</strong><br />
+          Essays: Word (.doc/.docx) or PDF<br />
+          Multimodal: MP4<br />
+          <span class="muted">Incorrect formats are not graded.</span>
+        </div>
+
+        <div class="callout" role="note" aria-label="Key due date rule">
+          <strong>Default due time</strong><br />
+          Sunday • 11:59 PM CST
+        </div>
+
+        <div class="callout" role="note" aria-label="AI prohibition reminder">
+          <strong>AI policy reminder</strong><br />
+          Generative AI use is prohibited for brainstorming or composing course work,
+          except non-generative tools embedded in approved KCTCS tech.
+        </div>
+
+        <details>
+          <summary>Important dates <span class="hint">(expand)</span></summary>
+          <p>
+            Refer to SKYCTC’s academic calendar for registration/tuition deadlines, holidays, and the last day to withdraw.
+          </p>
+        </details>
+
+        <details>
+          <summary>Proctored exam <span class="hint">(expand)</span></summary>
+          <p>None required for this course.</p>
+        </details>
+
+        <p class="muted" style="margin-top:1rem">
+          Tip: Save this file as <code style="font-family:var(--mono)">syllabus.html</code> and upload it to your course site.
+        </p>
+      </aside>
+    </main>
+
+    <footer role="contentinfo">
+      <p>Revised: March 2025 • For Spring 2026 • © <span id="year">2026</span></p>
+    </footer>
+  </div>
+
+  <script>
+    // Keep year current without impacting accessibility
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
