@@ -1,0 +1,547 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ENG 102 Syllabus | Spring 2026 | Shellena R. Smith</title>
+  <meta name="description" content="ENG 102: Writing II syllabus (Spring 2026) — Southcentral Kentucky Community & Technical College." />
+
+  <style>
+    /* ---------- Design tokens ---------- */
+    :root{
+      --bg: #0b1220;
+      --bg2:#0f1a33;
+      --surface: rgba(255,255,255,.06);
+      --surface2: rgba(255,255,255,.10);
+      --border: rgba(255,255,255,.14);
+      --text: #f2f6ff;
+      --muted:#c7d3f2;
+      --accent:#7dd3fc;
+      --accent2:#a78bfa;
+      --ring:#fbbf24;
+      --shadow: 0 18px 50px rgba(0,0,0,.35);
+      --radius: 18px;
+      --max: 1080px;
+      --line: 1.6;
+      --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      color-scheme: dark;
+    }
+
+    @media (prefers-color-scheme: light){
+      :root{
+        --bg:#f5f7ff;
+        --bg2:#eef2ff;
+        --surface: rgba(255,255,255,.75);
+        --surface2: rgba(255,255,255,.92);
+        --border: rgba(2,6,23,.14);
+        --text:#0b1220;
+        --muted:#334155;
+        --accent:#2563eb;
+        --accent2:#7c3aed;
+        --shadow: 0 18px 50px rgba(2,6,23,.14);
+        color-scheme: light;
+      }
+    }
+
+    /* ---------- Base ---------- */
+    *{ box-sizing:border-box; }
+    html:focus-within{ scroll-behavior:smooth; }
+    body{
+      margin:0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+      color:var(--text);
+      background:
+        radial-gradient(1200px 800px at 10% 10%, color-mix(in oklab, var(--accent) 25%, transparent), transparent 60%),
+        radial-gradient(1000px 700px at 90% 20%, color-mix(in oklab, var(--accent2) 22%, transparent), transparent 58%),
+        linear-gradient(160deg, var(--bg), var(--bg2));
+      line-height: var(--line);
+    }
+    a{ color: color-mix(in oklab, var(--accent) 85%, white); }
+    a:hover{ text-decoration-thickness: 3px; }
+    a:focus, button:focus, [tabindex]:focus, summary:focus{
+      outline: 3px solid var(--ring);
+      outline-offset: 3px;
+    }
+    .skip-link{
+      position:absolute;
+      top:.75rem;
+      left:.75rem;
+      padding:.65rem .85rem;
+      background:var(--surface2);
+      border:2px solid transparent;
+      border-radius: 12px;
+      box-shadow: var(--shadow);
+      transform: translateY(-220%);
+      transition: transform .18s ease;
+      z-index: 9999;
+    }
+    .skip-link:focus{ transform: translateY(0); border-color: var(--ring); }
+
+    /* ---------- Layout ---------- */
+    .wrap{
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: clamp(1rem, 3vw, 2rem);
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+
+    header.hero{
+      position: relative;
+      overflow: hidden;
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      background: linear-gradient(
+        135deg,
+        color-mix(in oklab, var(--surface2) 75%, transparent),
+        color-mix(in oklab, var(--surface) 85%, transparent)
+      );
+      box-shadow: var(--shadow);
+      padding: clamp(1.1rem, 3vw, 1.8rem);
+    }
+    header.hero::before,
+    header.hero::after{
+      content:"";
+      position:absolute;
+      width: 520px; height: 520px;
+      border-radius: 50%;
+      filter: blur(14px);
+      opacity: .65;
+      pointer-events:none;
+    }
+    header.hero::before{
+      left:-220px; top:-260px;
+      background: radial-gradient(circle at 30% 30%,
+        color-mix(in oklab, var(--accent) 45%, transparent),
+        transparent 60%);
+    }
+    header.hero::after{
+      right:-260px; bottom:-320px;
+      background: radial-gradient(circle at 70% 40%,
+        color-mix(in oklab, var(--accent2) 42%, transparent),
+        transparent 60%);
+    }
+
+    .kicker{
+      display:flex;
+      flex-wrap:wrap;
+      gap:.5rem;
+      align-items:center;
+      justify-content:space-between;
+      position:relative;
+      z-index:1;
+    }
+    .pill{
+      display:inline-flex;
+      gap:.55rem;
+      align-items:center;
+      padding:.5rem .8rem;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: color-mix(in oklab, var(--surface2) 65%, transparent);
+      color: var(--muted);
+      font-size: .95rem;
+    }
+    .dot{
+      width:.7rem; height:.7rem; border-radius:999px;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      box-shadow: 0 0 0 4px color-mix(in oklab, var(--accent) 12%, transparent);
+      flex: 0 0 auto;
+    }
+
+    h1{
+      margin: .8rem 0 .35rem;
+      font-size: clamp(1.9rem, 4.5vw, 3rem);
+      letter-spacing: -0.02em;
+      line-height: 1.15;
+      position:relative;
+      z-index:1;
+    }
+    .subhead{
+      margin: 0;
+      color: var(--muted);
+      font-size: clamp(1rem, 2.2vw, 1.15rem);
+      position:relative;
+      z-index:1;
+    }
+
+    nav.toc{
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      background: var(--surface);
+      padding: 1rem;
+      box-shadow: 0 10px 24px rgba(0,0,0,.18);
+    }
+    nav.toc h2{
+      margin: 0 0 .5rem;
+      font-size: 1.05rem;
+    }
+    nav.toc ul{
+      margin: 0;
+      padding-left: 1.1rem;
+      columns: 1;
+      column-gap: 2rem;
+    }
+    nav.toc li{ margin:.25rem 0; }
+    @media (min-width: 820px){
+      nav.toc ul{ columns: 2; }
+    }
+
+    .grid{
+      display:grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+    @media (min-width: 980px){
+      .grid{
+        grid-template-columns: 1fr 320px;
+        align-items:start;
+      }
+    }
+
+    section.card, aside.card{
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      background: var(--surface);
+      box-shadow: 0 10px 24px rgba(0,0,0,.18);
+      padding: 1rem;
+    }
+    section.card h2, aside.card h2{
+      margin: 0 0 .6rem;
+      font-size: 1.25rem;
+    }
+    section.card h3{
+      margin-top: 1rem;
+      margin-bottom: .35rem;
+      font-size: 1.05rem;
+    }
+    .muted{ color: var(--muted); }
+
+    .kv{
+      display:grid;
+      grid-template-columns: 1fr;
+      gap: .65rem;
+      margin-top: .6rem;
+    }
+    .kv .item{
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      background: color-mix(in oklab, var(--surface2) 70%, transparent);
+      padding: .85rem .9rem;
+    }
+    .kv .label{
+      font-size:.9rem;
+      color: var(--muted);
+      margin:0 0 .2rem;
+    }
+    .kv .value{
+      margin:0;
+      font-weight: 650;
+    }
+    .kv .value span{ font-weight: 500; color: var(--muted); }
+
+    @media (min-width: 640px){
+      .kv{ grid-template-columns: 1fr 1fr; }
+    }
+
+    /* ---------- Accordion (details/summary) ---------- */
+    details{
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      background: color-mix(in oklab, var(--surface2) 65%, transparent);
+      padding: .75rem .85rem;
+      margin: .75rem 0;
+    }
+    summary{
+      cursor:pointer;
+      font-weight: 700;
+      list-style: none;
+    }
+    summary::-webkit-details-marker{ display:none; }
+    summary .hint{
+      font-weight: 500;
+      color: var(--muted);
+      font-size: .95rem;
+      margin-left:.35rem;
+    }
+    details[open]{ background: color-mix(in oklab, var(--surface2) 80%, transparent); }
+
+    /* ---------- Tables ---------- */
+    .table-wrap{
+      overflow:auto;
+      border-radius: 14px;
+      border: 1px solid var(--border);
+      background: color-mix(in oklab, var(--surface2) 65%, transparent);
+    }
+    table{
+      width:100%;
+      border-collapse: collapse;
+      min-width: 820px; /* enables horizontal scroll on small screens */
+    }
+    caption{
+      text-align:left;
+      padding: .85rem .9rem;
+      font-weight: 700;
+    }
+    th, td{
+      border-top: 1px solid var(--border);
+      padding: .75rem .9rem;
+      vertical-align: top;
+      text-align:left;
+    }
+    thead th{
+      position: sticky;
+      top: 0;
+      background: color-mix(in oklab, var(--surface2) 92%, transparent);
+      z-index: 1;
+    }
+    td ul{
+      margin:.15rem 0 0;
+      padding-left: 1.1rem;
+    }
+    td ul li{ margin:.15rem 0; }
+
+    /* ---------- Callouts ---------- */
+    .callout{
+      border-left: 6px solid color-mix(in oklab, var(--accent) 70%, var(--accent2));
+      background: color-mix(in oklab, var(--surface2) 70%, transparent);
+      border-radius: 14px;
+      padding: .85rem .95rem;
+      margin: .8rem 0;
+    }
+    .callout strong{ display:inline-block; margin-bottom:.25rem; }
+
+    /* ---------- Footer ---------- */
+    footer{
+      color: var(--muted);
+      text-align:center;
+      padding: 1rem 0 1.25rem;
+      font-size: .95rem;
+    }
+
+    /* ---------- Print ---------- */
+    @media print{
+      body{ background: #fff; color:#000; }
+      a{ color:#000; }
+      header.hero, nav.toc, .card{ box-shadow:none; background:#fff; }
+      .skip-link{ display:none; }
+      details{ break-inside: avoid; }
+      .table-wrap{ overflow: visible; }
+      table{ min-width: 0; }
+    }
+
+    @media (prefers-reduced-motion: reduce){
+      html:focus-within{ scroll-behavior:auto; }
+      *{ transition:none !important; animation:none !important; }
+    }
+  </style>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <div class="wrap">
+    <header class="hero" role="banner" aria-label="Course syllabus header">
+      <div class="kicker">
+        <div class="pill"><span class="dot" aria-hidden="true"></span>Southcentral Kentucky Community &amp; Technical College</div>
+        <div class="pill"><span class="dot" aria-hidden="true"></span>Spring 2026 • 3 Credits • Online</div>
+      </div>
+
+      <h1>ENG 102: Writing II — Syllabus</h1>
+      <p class="subhead">
+        PeopleSoft Number: <strong>49583/49584</strong> • Structure: <strong>Lecture</strong>
+      </p>
+    </header>
+
+    <nav class="toc" aria-label="Syllabus table of contents">
+      <h2>Jump to a section</h2>
+      <ul>
+        <li><a href="#instructor">Instructor Information</a></li>
+        <li><a href="#course">Course Description &amp; Structure</a></li>
+        <li><a href="#rsi">Regular &amp; Substantive Interaction</a></li>
+        <li><a href="#prereq">Prerequisites &amp; Materials</a></li>
+        <li><a href="#competencies">Course Competencies</a></li>
+        <li><a href="#ethics">Workplace Ethics &amp; Participation</a></li>
+        <li><a href="#policies">Key Policies</a></li>
+        <li><a href="#grading">Grades &amp; Contract-Based Grading</a></li>
+        <li><a href="#schedule">Course Outline &amp; Weekly Schedule</a></li>
+        <li><a href="#guidelines">Instructor Guidelines</a></li>
+        <li><a href="#support">Support &amp; Accessibility</a></li>
+      </ul>
+    </nav>
+
+    <main id="main" class="grid" role="main" aria-label="Course syllabus content">
+      <!-- LEFT COLUMN -->
+      <div>
+        <section id="instructor" class="card" aria-labelledby="instructor-title">
+          <h2 id="instructor-title">Instructor Information</h2>
+
+          <div class="kv" role="list">
+            <div class="item" role="listitem">
+              <p class="label">Instructor</p>
+              <p class="value">Shellena R. Smith <span>• Professor of English</span></p>
+            </div>
+            <div class="item" role="listitem">
+              <p class="label">Division</p>
+              <p class="value">Arts &amp; Humanities Division</p>
+            </div>
+            <div class="item" role="listitem">
+              <p class="label">Email</p>
+              <p class="value"><a href="mailto:Shellena.smith@kctcs.edu">Shellena.smith@kctcs.edu</a></p>
+            </div>
+            <div class="item" role="listitem">
+              <p class="label">Phone</p>
+              <p class="value"><a href="tel:+12709011229">270-901-1229</a></p>
+            </div>
+            <div class="item" role="listitem">
+              <p class="label">Office Location</p>
+              <p class="value">Glasgow Health Campus, B-206a</p>
+            </div>
+            <div class="item" role="listitem">
+              <p class="label">Office Hours</p>
+              <p class="value">
+                Mon/Wed: 8:00–9:30, 10:45–12:30, 1:45–2:00<br />
+                Tue/Thu: 9:00–11:00, 12:15–2:00<br />
+                Fri: 8:00–11:00 (Virtual)
+              </p>
+            </div>
+          </div>
+
+          <div class="callout" role="note" aria-label="Communication expectations">
+            <strong>Communication:</strong>
+            Preferred method is KCTCS email. Responses typically within 24 hours during the workweek,
+            and by the next business day on weekends/holidays.
+          </div>
+        </section>
+
+        <section id="course" class="card" aria-labelledby="course-title">
+          <h2 id="course-title">Course Description &amp; Structure</h2>
+          <p>
+            <strong>Description:</strong> Emphasizes argumentative writing and continued instruction in drafting and revising
+            essays in Standard English. Includes critical reading, logical thinking, responding to texts, addressing audiences,
+            and researching/documenting credible academic sources. Credit is not available by special examination.
+          </p>
+          <p>
+            <strong>Instructor’s role:</strong> Provides detailed instruction and resources for analyzing texts (various modes) and
+            facilitates reading discussions.
+          </p>
+        </section>
+
+        <section id="rsi" class="card" aria-labelledby="rsi-title">
+          <h2 id="rsi-title">Regular &amp; Substantive Interaction</h2>
+          <p>
+            Distance education requires meaningful interaction between students and instructors.
+            Substantive interaction includes teaching, assessing, responding to questions, facilitating discussions, or other approved activities.
+            Regular interaction is frequent/predictable with timely, substantial feedback and improvement guidance.
+          </p>
+
+          <details>
+            <summary>How this course meets RSI <span class="hint">(expand)</span></summary>
+            <ul>
+              <li>Announcements at the start and end of each week with reminders and commentary on class progress/work.</li>
+              <li>Answer keys for quizzes/homework shared the following week.</li>
+              <li>Opportunities to meet via Blackboard Collaborate before each major essay/project.</li>
+              <li>Detailed feedback on essays and homework, plus instructor engagement in weekly discussion boards.</li>
+              <li>Essay Group Q&amp;A sessions held the week of (or before) a project due date; times shared via announcements.</li>
+            </ul>
+          </details>
+        </section>
+
+        <section id="prereq" class="card" aria-labelledby="prereq-title">
+          <h2 id="prereq-title">Prerequisites &amp; Required Materials</h2>
+
+          <h3>Prerequisite</h3>
+          <p>ENG 101</p>
+
+          <h3>Texts &amp; Materials</h3>
+          <p>
+            This course is fully <strong>OER</strong> (Open Educational Resources). There is no required textbook or course charge model.
+            Required readings will be linked or attached in Blackboard and are still required.
+          </p>
+
+          <div class="callout" role="note" aria-label="Due date and weekly folder note">
+            <strong>Weekly workflow:</strong>
+            Weekly folders open the Wednesday before the week starts (or after completing a “Grade Check” post).
+            Unless otherwise noted, materials are due <strong>Sunday at 11:59 PM CST</strong>.
+          </div>
+        </section>
+
+        <section id="competencies" class="card" aria-labelledby="competencies-title">
+          <h2 id="competencies-title">Course Competencies</h2>
+          <p>Upon completion of this course, the student can:</p>
+          <ul>
+            <li>Research topics to support an effective argument.</li>
+            <li>Write with a fluent, versatile prose style.</li>
+            <li>Analyze critically an assigned text.</li>
+            <li>Document sources in formal academic writing without plagiarism.</li>
+          </ul>
+        </section>
+
+        <section id="ethics" class="card" aria-labelledby="ethics-title">
+          <h2 id="ethics-title">Online Workplace Ethics &amp; Participation</h2>
+
+          <p>
+            SKYCTC incorporates workplace ethics expectations that support student success and employability.
+            Success is also measured by being present and punctual, participating in academic activities, and maintaining professional behavior.
+          </p>
+
+          <details>
+            <summary>Present, punctual, and participating <span class="hint">(expand)</span></summary>
+            <ul>
+              <li>Online participation includes more than logging in—students must complete learning activities and demonstrate progress.</li>
+              <li>Students who do not participate or complete coursework according to guidelines may be withdrawn.</li>
+              <li>Withdrawals for inactivity prior to the midpoint generally result in a <strong>W</strong>; after midpoint, a failing grade with an <strong>E</strong> may be issued.</li>
+            </ul>
+          </details>
+
+          <details>
+            <summary>Professional conduct <span class="hint">(expand)</span></summary>
+            <ul>
+              <li>Engage instructors, employees, and peers with respect.</li>
+              <li>Use appropriate online etiquette.</li>
+              <li>Utilize technology appropriately.</li>
+              <li>Model behavior appropriate to your chosen profession.</li>
+            </ul>
+            <p class="muted">
+              Disruptive conduct may result in dismissal from the course and further disciplinary action.
+            </p>
+          </details>
+
+          <p><strong>Proctored exam:</strong> This course does <strong>not</strong> require a proctored exam.</p>
+        </section>
+
+        <section id="policies" class="card" aria-labelledby="policies-title">
+          <h2 id="policies-title">Key Policies</h2>
+
+          <details>
+            <summary>Withdrawal policy <span class="hint">(expand)</span></summary>
+            <p>
+              Through the midterm of the session, students may officially withdraw and receive a <strong>W</strong>.
+              After midterm, a student may request to withdraw and receive a W at the discretion of the instructor.
+              Students must initiate the official withdrawal; withdrawal may impact financial aid and academic progress.
+              The last day to withdraw is listed on the academic calendar; requests are made via self-service.
+            </p>
+          </details>
+
+          <details>
+            <summary>Financial aid statement <span class="hint">(expand)</span></summary>
+            <p>
+              Title IV recipients (PELL, SEOG, student loans) who stop attending or withdraw prior to the 60% point may be obligated
+              to repay a portion of financial aid.
+            </p>
+          </details>
+
+          <details>
+            <summary>Inquiries &amp; class concerns <span class="hint">(expand)</span></summary>
+            <p>
+              Start by speaking with the instructor. If the issue is not resolved, contact the Dean of Arts &amp; Humanities,
+              Dr. Stephanie Tolliver-Hyman (<a href="mailto:stephanie.hyman@kctcs.edu">stephanie.hyman@kctcs.edu</a>).
+              To schedule an appointment, contact the administrative assistant at <a href="tel:+12709011051">270-901-1051</a>.
+              If needed, refer to the formal academic appeal process in the KCTCS Code of Student Conduct.
+            </p>
+            <p><strong>Freedom from retaliation:</strong> Faculty and staff shall not retaliate against students for bringing concerns or complaints.</p>
+          </details>
+
+          <details>
+            <summary>Student discri
